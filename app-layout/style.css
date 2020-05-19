@@ -90,3 +90,22 @@ a.button {
 }
 
 /* flexbox starts here */
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-wrap > * {
+  flex: 1 1 auto;
+}
+
+.content {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
