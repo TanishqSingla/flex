@@ -109,3 +109,10 @@ a.button {
   justify-content: space-between;
   align-items: center;
 }
+
+.icon-bar {
+  display: flex;
+}
+.icon-bar a {
+  flex: 1;
+}
